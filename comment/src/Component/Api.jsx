@@ -102,7 +102,7 @@ const Api = () => {
           <h1>Add products</h1>
           <input type="text" placeholder='Product Name' ref={name} />
           <input type="text" placeholder='Price' ref={price} />
-          <button className='btn btn-info' onClick={addProduct} style={{ width: "100%" }}>Add</button>
+          <button className='btn btn-success' onClick={addProduct} style={{ width: "100%" }}>Add</button>
         </div>
 
 
