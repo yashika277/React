@@ -2,14 +2,13 @@ import React from 'react'
 import Testimonial from './Testimonial'
 import Gallery from './Gallery'
 import Footer from './Footer'
-import NavCon from '../NavCon'
 import Navbar from '../Navbar'
+
 
 const Home = () => {
   return (
     <>
-    <NavCon/>
-    <Navbar/>
+   
     <div id="hero" class="d-flex align-items-center">
     <div class="container">
       <h1>Welcome to City <br/>Multispeciality Hospital</h1>
